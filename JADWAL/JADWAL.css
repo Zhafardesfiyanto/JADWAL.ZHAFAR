@@ -1,0 +1,71 @@
+body {
+    background: url(inazuma.jpg)
+      no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: auto;
+    width: 80%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background-color: rgb(177, 39, 181);
+    border: 2px dashed white;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  .container h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  table {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: 2px dashed white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  
+  th {
+    background-color: #333;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    } 
+    table,
+    th,
+    td {
+      font-size: 0.8rem;
+    }
+  }
+  
+  html,
+  body {
+    overflow: hidden;
+  }
+  
+  tr :hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
